@@ -124,3 +124,22 @@ button{
     margin-left: auto;
     font-weight: bold;
 }
+.action{
+    display: flex;
+    margin: 100px 200px;
+    padding: 50px 100px;
+    background-color: #3882f6;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+.action-box{
+    display: flex;
+    flex-direction: column;
+}
+.action-title{
+    font-weight: bolder;
+}
+.action-button{
+    border-color: #f9faf8;
+}
