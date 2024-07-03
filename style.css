@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .header{
     background-color: #1f2937;
@@ -9,6 +11,7 @@ body{
     justify-content: space-between;
     padding: 8px 52px;
 }
+
 .logo{
     display: flex;
     align-items: center;
@@ -93,6 +96,23 @@ button{
 }
 .info-text{
     text-align: center;
+    margin-bottom: 32px;
 }
-
-
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+.quote-thor{
+    margin-left: auto;
+    font-weight: bold;
+}
